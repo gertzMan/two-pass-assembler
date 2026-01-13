@@ -1,0 +1,146 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\info
+{\author Launchpad by Anima}}\vieww10800\viewh8400\viewkind0
+\pard\tqr\tx566\tqr\tx1133\tqr\tx1700\tqr\tx2267\tqr\tx2834\tqr\tx3401\tqr\tx3968\tqr\tx4535\tqr\tx5102\tqr\tx5669\tqr\tx6236\tqr\tx6803\pardirnatural\qr\partightenfactor0
+
+\f0\fs24 \cf0 <html><head>\
+        <link href="./img/favicon.png" rel="shortcut icon">\
+        <meta charset="utf-8">\
+        <meta content="width=1366px, maximum-scale=1.0" name="viewport">\
+        <link href="./css/screen1.css" rel="stylesheet" type="text/css">\
+        <meta content="Launchpad by Anima" name="author">\
+        \
+    </head>\
+    <body style="margin: 0;\
+ background: rgba(255, 255, 255, 1.0);">\
+        <input id="anPageName" name="page" type="hidden" value="screen1">\
+        <div class="screen1">\
+            <div style="width: 1366px; height: 100%; position:relative; margin:auto;">\
+                <img anima-src="./img/----matrix-1274888.png" class="matrix1274888" src="./img/----matrix-1274888.png">\
+                <img anima-src="./img/----rectangle-2.png" class="rectangle2" src="./img/----rectangle-2.png">\
+                <div class="u05e4u05e8u05d5u05d9u05d9u05e7u05d8u05deu05e2u05d1u05d3u05d4u05d1u05eau05dbu05e0u05d5u05ea">\
+                    
+\f1 \uc0\u1508 \u1512 \u1493 \u1497 \u1497 \u1511 \u1496 
+\f0  
+\f1 \uc0\u1502 \u1506 \u1489 \u1491 \u1492 
+\f0  
+\f1 \uc0\u1489 \u1514 \u1499 \u1504 \u1493 \u1514 
+\f0  
+\f1 \uc0\u1502 \u1506 \u1512 \u1499 \u1493 \u1514 
+\f0 \
+                </div>\
+                \
+                \
+                \
+                \
+                \
+                \
+                \
+                \
+                \
+                \
+                \
+                <a href="screen2.html">\
+                    <div class="group1" style="\
+    top: 300px;\
+    left:  500px;\
+">\
+                        <img anima-src="./img/----oval.png" class="oval" src="./img/----oval.png">\
+                        <img anima-src="./img/----oval 1.png" class="oval1" src="./img/----oval 1.png">\
+                        <div class="u05deu05d5u05d3u05d5u05dcu05d9u05ddu05e2u05d9u05e7u05e8u05d9u05d9u05ddu05d1u05e4u05e8u05d5">\
+                            <br>
+\f1 \uc0\u1500 \u1495 \u1509 
+\f0  
+\f1 \uc0\u1499 \u1488 \u1503 
+\f0  <br>
+\f1 \uc0\u1500 \u1514 \u1497 \u1506 \u1493 \u1491 
+\f0  
+\f1 \uc0\u1499 \u1500 \u1500 \u1497 
+\f0 <br></div>\
+                    </div>\
+                </a>\
+            </div>\
+        </div>\
+        <!-- Scripts -->\
+        <script>\
+            anima_isHidden = function(e) \{\
+                if (!(e instanceof HTMLElement)) return !1;\
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;\
+                return !1;\
+            \};\
+            anima_loadAsyncSrcForTag = function(tag) \{\
+                var elements = document.getElementsByTagName(tag);\
+                var toLoad = [];\
+                for (var i = 0; i < elements.length; i++) \{\
+                    var e = elements[i];\
+                    var src = e.getAttribute("src");\
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');\
+                    if (loaded) continue;\
+                    var asyncSrc = e.getAttribute("anima-src");\
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;\
+                    if (anima_isHidden(e)) continue;\
+                    toLoad.push(e);\
+                \}\
+                toLoad.sort(function(a, b) \{\
+                    return anima_getTop(a) - anima_getTop(b);\
+                \});\
+                for (var i = 0; i < toLoad.length; i++) \{\
+                    var e = toLoad[i];\
+                    var asyncSrc = e.getAttribute("anima-src");\
+                    e.setAttribute("src", asyncSrc);\
+                \}\
+            \};\
+            anima_pauseHiddenVideos = function(tag) \{\
+                var elements = document.getElementsByTagName("video");\
+                for (var i = 0; i < elements.length; i++) \{\
+                    var e = elements[i];\
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);\
+                    var isHidden = anima_isHidden(e);\
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") \{\
+                        e.play();\
+                    \} else if (isPlaying && isHidden) \{\
+                        e.pause();\
+                    \}\
+                \}\
+            \};\
+            anima_loadAsyncSrc = function(tag) \{\
+                anima_loadAsyncSrcForTag("img");\
+                anima_loadAsyncSrcForTag("iframe");\
+                anima_loadAsyncSrcForTag("video");\
+                anima_pauseHiddenVideos();\
+            \};\
+            var anima_getTop = function(e) \{\
+                var top = 0;\
+                do \{\
+                    top += e.offsetTop || 0;\
+                    e = e.offsetParent;\
+                \} while (e);\
+                return top;\
+            \};\
+            anima_loadAsyncSrc();\
+            anima_old_onResize = window.onresize;\
+            anima_new_onResize = undefined;\
+            anima_updateOnResize = function() \{\
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) \{\
+                    anima_new_onResize = function(x) \{\
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);\
+                        anima_loadAsyncSrc();\
+                    \};\
+                    window.onresize = anima_new_onResize;\
+                    setTimeout(function() \{\
+                        anima_updateOnResize();\
+                    \}, 3000);\
+                \}\
+            \};\
+            anima_updateOnResize();\
+            setTimeout(function() \{\
+                anima_loadAsyncSrc();\
+            \}, 200);\
+        </script>\
+        <!-- End of Scripts -->\
+    \
+\
+</body></html>}

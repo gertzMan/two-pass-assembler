@@ -1,0 +1,16 @@
+# Compiled files
+*.o
+assembler
+depends
+
+# Output files
+*.ob
+*.ent
+*.ext
+errors-*.txt
+
+# Backup files
+*~
+
+# OS files
+.DS_Store
